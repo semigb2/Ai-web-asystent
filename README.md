@@ -10,15 +10,17 @@
 ## Upewnij się, że masz zainstalowane Python 3.9 lub nowszy.
 #### Zainstaluj wirtualne środowisko:
 
-
+```
 python -m venv ai_web_asystent_env
-Aktywuj wirtualne środowisko:
+```
+####Aktywuj wirtualne środowisko:
 
-Windows: ai_web_asystent_env\Scripts\activate
-Linux/macOS: source ai_web_asystent_env/bin/activate
-Zainstaluj wymagane pakiety:
-Copy code
+### Windows: ai_web_asystent_env\Scripts\activate
+### Linux/macOS: source ai_web_asystent_env/bin/activate
+### Zainstaluj wymagane pakiety:
+```
 pip install -r requirements.txt
+```
 Wygeneruj certyfikat samopodpisany dla obsługi HTTPS:
 csharp
 Copy code
