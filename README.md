@@ -10,9 +10,8 @@
 ## Upewnij się, że masz zainstalowane Python 3.9 lub nowszy.
 #### Zainstaluj wirtualne środowisko:
 
-'''
+
 python -m venv ai_web_asystent_env
-'''
 Aktywuj wirtualne środowisko:
 
 Windows: ai_web_asystent_env\Scripts\activate
