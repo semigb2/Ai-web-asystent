@@ -1,0 +1,30 @@
+Projekt: Tworzenie aplikacji z interfejsu webowego do obsługi głosowej dwukierunkowej w języku polskim opartej na GPT-3.5 Turbo w Python3
+
+Kroki do wykonania:
+
+Przygotowanie środowiska:
+a. Zainstaluj Python3 na swoim komputerze.
+b. Utwórz wirtualne środowisko i zainstaluj potrzebne biblioteki: Flask, SpeechRecognition, pyttsx3 lub gTTS, oraz openai.
+
+Stworzenie prostego interfejsu użytkownika:
+a. Utwórz prostą stronę HTML z formularzem do wprowadzania zapytań oraz pola wyjściowego do wyświetlania odpowiedzi.
+b. Użyj biblioteki Flask, aby stworzyć prosty serwer obsługujący żądania POST z formularza.
+
+Integracja z GPT-3.5 Turbo:
+a. Utwórz funkcję w Pythonie, która przyjmuje zapytanie użytkownika i przesyła je do API OpenAI.
+b. Przetwórz odpowiedź z API, wyodrębnij tekst i wyświetl go w polu wyjściowym strony internetowej.
+
+Implementacja obsługi głosowej:
+a. Zintegruj bibliotekę SpeechRecognition, aby umożliwić wprowadzanie zapytań za pomocą mowy.
+b. Dodaj przycisk do strony internetowej, który będzie aktywować nagrywanie dźwięku i przetwarzać go na tekst.
+c. Użyj pyttsx3 lub gTTS, aby odtwarzać odpowiedzi w formie dźwiękowej.
+
+Testowanie i optymalizacja:
+a. Przeprowadź testy z różnymi zapytaniami w języku polskim, aby ocenić jakość tłumaczenia i ogólną funkcjonalność aplikacji.
+b. Popraw wszelkie błędy lub problemy wydajności, które napotkasz podczas testowania.
+
+Dokumentacja:
+a. Stwórz dokumentację projektu, opisując jego funkcje, wykorzystane technologie i kroki instalacji.
+b. Zawrzyj informacje o ewentualnych ograniczeniach aplikacji oraz propozycje dalszego rozwoju.
+
+Gdy zakończysz projekt, będziesz miał aplikację z interfejsu webowego do obsługi głosowej dwukierunkowej w języku polskim opartą na GPT-3.5 Turbo w Python3. Aplikacja pozwoli użytkownikom na swobodną komunikację z modelem GPT-3.5 Turbo w języku polskim, zarówno przez wpisywanie tekstu, jak i za pomocą komend głosowych, oraz otrzymywanie odpowiedzi modelu w formie tekstowej i głosowej.
