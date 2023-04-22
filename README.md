@@ -36,5 +36,5 @@ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 36
 ```
 python app.py
 ```
-# Otwórz przeglądarkę i przejdź do adresu: https://localhost:8080.
+# Otwórz przeglądarkę i przejdź do adresu: https://localhost:5000.
 ## Teraz aplikacja powinna być uruchomiona, a użytkownik może zacząć zadawać pytania tekstowe lub mówić do mikrofonu, aby otrzymać odpowiedzi od GPT-4.
