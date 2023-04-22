@@ -13,7 +13,7 @@
 ```
 python -m venv ai_web_asystent_env
 ```
-####Aktywuj wirtualne środowisko:
+## Aktywuj wirtualne środowisko:
 
 ### Windows: ai_web_asystent_env\Scripts\activate
 ### Linux/macOS: source ai_web_asystent_env/bin/activate
@@ -21,17 +21,20 @@ python -m venv ai_web_asystent_env
 ```
 pip install -r requirements.txt
 ```
-Wygeneruj certyfikat samopodpisany dla obsługi HTTPS:
-csharp
-Copy code
+## Wygeneruj certyfikat samopodpisany dla obsługi HTTPS:
+```
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
-Upewnij się, że masz odpowiednie credentiale dla API GPT-4 i umieść je w pliku openai_secret_manager.py.
-Instrukcja uruchomienia aplikacji
-Aktywuj wirtualne środowisko (jeśli nie jest już aktywne):
-Windows: ai_web_asystent_env\Scripts\activate
-Linux/macOS: source ai_web_asystent_env/bin/activate
-Uruchom aplikację:
-Copy code
+```
+#### Upewnij się, że masz odpowiednie credentiale dla API GPT-4 i umieść je w pliku openai_secret_manager.py.
+
+## Instrukcja uruchomienia aplikacji
+
+### Aktywuj wirtualne środowisko (jeśli nie jest już aktywne):
+- #### Windows: ai_web_asystent_env\Scripts\activate
+- #### Linux/macOS: source ai_web_asystent_env/bin/activate
+## Uruchom aplikację:
+```
 python app.py
-Otwórz przeglądarkę i przejdź do adresu: https://localhost:8080.
-Teraz aplikacja powinna być uruchomiona, a użytkownik może zacząć zadawać pytania tekstowe lub mówić do mikrofonu, aby otrzymać odpowiedzi od GPT-4.
+```
+# Otwórz przeglądarkę i przejdź do adresu: https://localhost:8080.
+## Teraz aplikacja powinna być uruchomiona, a użytkownik może zacząć zadawać pytania tekstowe lub mówić do mikrofonu, aby otrzymać odpowiedzi od GPT-4.
